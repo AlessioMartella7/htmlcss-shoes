@@ -9,11 +9,55 @@
 
 body{
     font-family:'Rubik Mono One', sans-serif;
+    color: #FFFF00;
 }
 
+ul{
+    list-style-type: none;
+}
 /* Utilities */
 
 .container{
     max-width: 1000px;
     margin: 0 auto;
+}
+
+
+.nav-bar{
+    position: fixed;
+    top: 40px;
+    right:20px;
+    background-color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* BLocchi prova*/
+.full-page{
+    height: 100vh;
+    background-color: #FF0000;
+    position: relative;
+}
+
+.full-page2{
+    height: 100vh;
+    background-color: #008000;
+    position: relative;
+}
+
+.full-page3{
+    height: 100vh;
+    background-color: #FFFF00;
+    position: relative;
+}
+
+.content{
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    text-align: center;
 }
