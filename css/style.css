@@ -12,7 +12,7 @@ body{
     color: #FFFF00;
 }
 
-html {
+html{
     overflow-y: hidden;
     scroll-behavior: smooth;
 }
@@ -92,6 +92,7 @@ li a{
 .full-page p{
     font-size: 50px;
 }
+
 /* Contenuto: Scarpe*/
 
 #differente{
